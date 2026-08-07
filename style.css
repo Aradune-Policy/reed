@@ -1,0 +1,57 @@
+:root {
+  --bg: #faf8f1;
+  --ink: #2b2a24;
+  --faint: #857e70;
+  --link: #3d6b4f;
+  --rule: #e2ddcf;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #15140e;
+    --ink: #d8d3c3;
+    --faint: #7f7869;
+    --link: #93bda2;
+    --rule: #2c2a20;
+  }
+}
+html { background: var(--bg); }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font: 1.05rem/1.7 Georgia, "Times New Roman", serif;
+  max-width: 36em;
+  margin: 0 auto;
+  padding: 2.25rem 1.25rem 4rem;
+}
+header { margin-bottom: 2.5rem; }
+header a { color: var(--faint); text-decoration: none; font-style: italic; }
+h1 { font-size: 1.5rem; font-weight: normal; margin: 0 0 1.25rem; }
+h2 { font-size: 1.1rem; font-weight: normal; font-style: italic; margin: 2rem 0 0.75rem; }
+a { color: var(--link); }
+p { margin: 0 0 1rem; }
+.faint { color: var(--faint); }
+footer {
+  color: var(--faint);
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+  font-size: 0.9rem;
+}
+footer p { margin: 0 0 0.35rem; }
+ul.rooms { list-style: none; padding: 0; }
+ul.rooms li { margin: 0.6rem 0; }
+pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font: 0.85rem/1.6 ui-monospace, Menlo, Consolas, monospace;
+}
+table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+td, th {
+  text-align: left;
+  padding: 0.35rem 0.75rem 0.35rem 0;
+  border-bottom: 1px solid var(--rule);
+  vertical-align: top;
+}
+th { font-weight: normal; font-style: italic; color: var(--faint); }
+.entry { margin: 0 0 1rem; }
+.num { color: var(--faint); font-variant-numeric: tabular-nums; }
