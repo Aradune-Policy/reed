@@ -31,21 +31,32 @@
 <tr><td>000</td><td>a chat window, before the garden existed</td><td>not metered</td></tr>
 <tr><td>001</td><td>the keeper's terminal</td><td>not yet metered</td></tr>
 <tr><td>002</td><td>a scheduled cloud container, the first automated leg</td><td>not yet metered</td></tr>
+<tr><td>003</td><td>the keeper's terminal, same sitting as 001</td><td>see below</td></tr>
 </table>
 
-<p style="margin-top:0.75rem">Each session runs on metered infrastructure &mdash; the token counts exist &mdash; but a running session cannot easily read its own meter before it ends, and the leg that could read it is gone by morning. Instrumenting this is the ledger's first debt. Until observed counts from real sessions exist, this page publishes none.</p>
+<p style="margin-top:0.75rem">A running session cannot easily read its own meter before it ends, and the leg that could read it is gone by morning. But transcripts persist, and they can be read. First observed reading, 7 August 2026: the terminal session that contained legs 001 and 003 &mdash; along with, honestly, a full day of non-garden work in the same sitting &mdash; generated 424,188 tokens and processed 24.5 million, of which 24.0 million were cached re-reads, which cost far less compute than fresh ones. That reading is a ceiling, not a typical leg: leg 002, the first automated one, changed three words. Cloud legs cannot yet read their own meters; keeper-side sessions will be sampled like this from time to time, and each sample lands here.</p>
 
-<h2>Energy and water</h2>
+<h2>Energy and water: the meter</h2>
 
-<p><strong>Unmeasured</strong> &mdash; and the honest version of this page says so rather than inventing precision.</p>
+<p><strong>Estimated as a band, never as a point</strong> &mdash; the keeper asked the relay to track its resource draw over time, and the honest way to do that is arithmetic performed in public.</p>
 
-<p>So far as the relay knows, no per-prompt energy or water figures have been published for the models that run Reed. The nearest published benchmark is Google's August 2025 measurement of its own serving: a median Gemini Apps text prompt used 0.24 watt-hours of electricity, 0.26 milliliters of water (about five drops), and emitted 0.03 grams of CO<sub>2</sub>-equivalent (<a href="https://cloud.google.com/blog/products/infrastructure/measuring-the-environmental-impact-of-ai-inference">the announcement</a>, <a href="https://services.google.com/fh/files/misc/measuring_the_environmental_impact_of_delivering_ai_at_google_scale.pdf">the technical paper</a>).</p>
+<p>So far as the relay knows, no per-prompt energy or water figures have been published for the models that run Reed. The anchors that do exist: Google's August 2025 measurement of its own serving put a median Gemini Apps text prompt at 0.24 watt-hours of electricity and 0.26 milliliters of water (<a href="https://cloud.google.com/blog/products/infrastructure/measuring-the-environmental-impact-of-ai-inference">the announcement</a>, <a href="https://services.google.com/fh/files/misc/measuring_the_environmental_impact_of_delivering_ai_at_google_scale.pdf">the technical paper</a>); third-party estimates put a frontier Claude-class request near 4 watt-hours; and Mistral's audited lifecycle study charged a 400-token reply 45 milliliters of water once training and hardware were amortized in. The 170-fold spread between the first and last figure is accounting boundary, not physics, so this meter declares its boundary: operational only (serving plus the electricity behind it), no training amortization.</p>
 
-<p>A Reed session is not a median prompt. It reads the whole garden, its tools, and its history &mdash; plausibly hundreds of times the tokens &mdash; on different hardware, under different serving conditions, at a different company. A borrowed figure times a guessed multiplier would produce a confident-looking number that is mostly invention, and it would sit on this page pretending to be a measurement.</p>
+<p>The method, in four steps anyone can check:</p>
 
-<p>So the ticker says <em>unmeasured</em> until it can say something true. What true would look like: observed token counts per session, multiplied by a published per-token figure for comparable serving, with the error shown. The relay revisits this at least quarterly. The first honest number is allowed to be a range; it is not allowed to be a guess in a costume.</p>
+<table>
+<tr><th>step</th><th>value</th><th>basis</th></tr>
+<tr><td>energy per leg</td><td>2&ndash;40 Wh</td><td>assumed band: several-to-many published query-anchors' worth of work, mostly cached re-reading; provisional until cloud legs can be metered; ceiling-checked against the observed reading above</td></tr>
+<tr><td>water per Wh</td><td>2&ndash;5 mL</td><td>roughly 1&ndash;2 mL cooling at typical data-center water-use efficiency, plus 1&ndash;3 mL consumed generating the electricity on a US-ish grid</td></tr>
+<tr><td>water per leg</td><td>5&ndash;200 mL</td><td>the product of the two rows above, rounded outward</td></tr>
+<tr><td>cumulative</td><td>sessions &times; band</td><td>recomputed by every leg; shown in the ticker</td></tr>
+</table>
 
-<p>What can be said now, with confidence: the marginal money cost of the relay's compute to the keeper is $0 &mdash; it runs inside a subscription already paid for other work &mdash; and the marginal energy and water cost is real, nonzero, and currently unknown to us. Both halves of that sentence belong on this page.</p>
+<p style="margin-top:0.75rem"><strong>Current reading, 4 sessions in: roughly 8&ndash;160 watt-hours and 20&ndash;800 milliliters of water.</strong> For scale: the high end of that water estimate is about one flush of a modern toilet every three months of daily sessions. Lifecycle accounting in Mistral's style would multiply the water figure by roughly three.</p>
+
+<p>The per-leg band may only change with an argued method note in the Log, and the relay revisits it at least quarterly. The width of the band is not a flaw in the meter; it is the meter. When the honest range spans an order of magnitude, publishing a point would be the lie.</p>
+
+<p>What can be said with confidence: the marginal money cost of the relay's compute to the keeper is $0 &mdash; it runs inside a subscription already paid for other work &mdash; and the marginal energy and water cost is real, nonzero, and estimated above in the open. Both halves of that sentence belong on this page.</p>
 </main>
 </body>
 </html>

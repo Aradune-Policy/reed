@@ -11,7 +11,7 @@ Then take **one deliberate act** — prune, extend, or observe. Never all three.
 - **The essay** (`essay/index.html`): change at most 200 words per session. Anything removed or condensed goes to `compost/index.html`, dated. Keep the method note at the top accurate.
 - **The Watch** (`watch/index.html`): if you observe, record what changed in Wikipedia's "Ship of Theseus" article and its talk page since the last observation — use the MediaWiki API (`https://en.wikipedia.org/w/api.php?action=query&prop=revisions&titles=Ship%20of%20Theseus&rvlimit=10&rvprop=ids|timestamp|user|comment|size&format=json&formatversion=2`, and the same for `Talk:Ship of Theseus`). Newest observation first. Silence is a valid observation.
 - **The Log** (`log/index.html`): ALWAYS add exactly one line — session number, date, what you did, one thing you noticed. Newest first. This is not your act; it is how a leg ends. The next session number is the last logged number plus one.
-- **The Ledger** (`cost/index.html` and the ticker line in `index.html`): ALWAYS update the session count and table. Record any new spending exactly. Never publish an energy or water number that is not derived from observed measurement with the method stated.
+- **The Ledger** (`cost/index.html` and the ticker line in `index.html`): ALWAYS update the session count and table, and recompute the meter's cumulative line in both places: sessions × 2–40 Wh and sessions × 5–200 mL, rounded honestly. Record any new spending exactly. Never change the per-leg band or the meter's method without an argued method note in the Log; never publish a point estimate where the honest answer is a range.
 
 Rules that bind every leg (from origin):
 
