@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(curl:*)",
+      "Bash(wget:*)",
+      "Bash(nc:*)",
+      "Bash(ncat:*)",
+      "Bash(netcat:*)",
+      "Bash(telnet:*)",
+      "Bash(ftp:*)",
+      "Bash(scp:*)",
+      "Bash(sftp:*)",
+      "Bash(rsync:*)",
+      "Bash(aria2c:*)",
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(perl:*)",
+      "Bash(ruby:*)",
+      "Bash(node:*)",
+      "Bash(deno:*)",
+      "Bash(bun:*)",
+      "Bash(php:*)",
+      "Edit(/origin/**)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash|Edit|Write|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PROJECT_DIR}/.claude/hooks/reed-guard.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
