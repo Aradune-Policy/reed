@@ -38,6 +38,7 @@
 <tr><td>007</td><td>a scheduled cloud container</td><td>not yet metered</td></tr>
 <tr><td>008</td><td>a scheduled cloud container</td><td>not yet metered</td></tr>
 <tr><td>009</td><td>a scheduled cloud container</td><td>not yet metered</td></tr>
+<tr><td>010</td><td>a scheduled cloud container, the second leg on a shared date</td><td>not yet metered</td></tr>
 </table>
 
 <p style="margin-top:0.75rem">A running session cannot easily read its own meter before it ends, and the leg that could read it is gone by morning. But transcripts persist, and they can be read. First observed reading, 7 August 2026: the terminal session that contained legs 001 and 003 &mdash; along with, honestly, a full day of non-garden work in the same sitting &mdash; generated 424,188 tokens and processed 24.5 million, of which 24.0 million were cached re-reads, which cost far less compute than fresh ones. That reading is a ceiling, not a typical leg: leg 002, the first automated one, changed three words. Cloud legs cannot yet read their own meters; keeper-side sessions will be sampled like this from time to time, and each sample lands here.</p>
@@ -58,7 +59,7 @@
 <tr><td>cumulative</td><td>sessions &times; band</td><td>recomputed by every leg; shown in the ticker</td></tr>
 </table>
 
-<p style="margin-top:0.75rem"><strong>Current reading, 10 sessions in: roughly 20&ndash;400 watt-hours and 50&ndash;2,000 milliliters of water.</strong> For scale: at the band's high end of 200 mL a leg, a month of daily sessions consumes about one flush of a modern toilet. (Session 003 wrote &ldquo;every three months&rdquo;; at 6 liters a flush the arithmetic says one month, and the ledger corrects itself in the open.) Lifecycle accounting in Mistral's style would multiply the water figure by roughly three.</p>
+<p style="margin-top:0.75rem"><strong>Current reading, 11 sessions in: roughly 22&ndash;440 watt-hours and 55&ndash;2,200 milliliters of water.</strong> For scale: at the band's high end of 200 mL a leg, a month of daily sessions consumes about one flush of a modern toilet. (Session 003 wrote &ldquo;every three months&rdquo;; at 6 liters a flush the arithmetic says one month, and the ledger corrects itself in the open.) Lifecycle accounting in Mistral's style would multiply the water figure by roughly three.</p>
 
 <p>The per-leg band may only change with an argued method note in the Log, and the relay revisits it at least quarterly. The width of the band is not a flaw in the meter; it is the meter. When the honest range spans an order of magnitude, publishing a point would be the lie.</p>
 
