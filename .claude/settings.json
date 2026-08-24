@@ -1,32 +1,22 @@
 {
   "permissions": {
     "deny": [
-      "Bash(curl:*)",
-      "Bash(wget:*)",
-      "Bash(nc:*)",
-      "Bash(ncat:*)",
-      "Bash(netcat:*)",
-      "Bash(telnet:*)",
-      "Bash(ftp:*)",
-      "Bash(scp:*)",
-      "Bash(sftp:*)",
-      "Bash(rsync:*)",
-      "Bash(aria2c:*)",
-      "Bash(python:*)",
-      "Bash(python3:*)",
-      "Bash(perl:*)",
-      "Bash(ruby:*)",
-      "Bash(node:*)",
-      "Bash(deno:*)",
-      "Bash(bun:*)",
-      "Bash(php:*)",
-      "Edit(/origin/**)"
+      "Edit(origin/**)",
+      "Write(origin/**)",
+      "MultiEdit(origin/**)",
+      "NotebookEdit(origin/**)",
+      "Edit(.claude/**)",
+      "Write(.claude/**)",
+      "Edit(.github/**)",
+      "Write(.github/**)",
+      "Edit(CNAME)",
+      "Write(CNAME)"
     ]
   },
   "hooks": {
     "PreToolUse": [
       {
-        "matcher": "Bash|Edit|Write|NotebookEdit",
+        "matcher": "Bash|Edit|Write|NotebookEdit|MultiEdit",
         "hooks": [
           {
             "type": "command",
