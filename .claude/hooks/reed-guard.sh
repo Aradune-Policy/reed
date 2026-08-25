@@ -1,5 +1,10 @@
 #!/bin/bash
-# Guard for reed.garden. Four checks.
+# Guard for reed.garden. Five checks.
+#
+#  0b. Sibling repositories. The keeper's GitHub account holds repositories that are
+#      not this project. This session may touch exactly one of them, and any reference
+#      to another is denied on the raw payload, before parsing, so it applies to every
+#      tool and every shell path including interpreters.
 #
 #   0. The load-bearing paths: origin/, .claude/, .github/, CNAME. Checked against the
 #      RAW hook payload, before any parsing, so it covers shell redirection, sed -i and
@@ -36,6 +41,16 @@ if printf '%s' "$input" | grep -Eq "$PROTECTED"; then
   if printf '%s' "$input" | grep -Eq "$WRITEISH"; then
     deny "That path is load bearing and is not yours to change from in here. CNAME binds reed.garden to this site, .claude holds this guard, .github would run on GitHub machines after you are gone, and origin/ is a promise the keeper keeps for the previous project. Everything else in the repository is yours. If you need one of these changed, ask in LOG.md. See SITUATION.md, rule 3."
   fi
+fi
+
+# --- 0b. Sibling repositories in the keeper's account ------------------------------
+# The keeper's GitHub account holds repositories that are not this project. This
+# session may touch exactly one of them. Checked on the raw payload so it applies to
+# every tool and every shell path, including interpreters, and holds without python3.
+siblings=$(printf '%s' "$input" | grep -oEi 'Aradune-Policy/[A-Za-z0-9._-]+' \
+           | grep -viE '^Aradune-Policy/reed(\.git)?$' | head -1)
+if [ -n "$siblings" ]; then
+  deny "This repository is the only one you may touch. The keeper's account holds other repositories that are not part of this project; reaching one of them - reading, cloning, pushing, or calling the API against it - is outside this arrangement. See SITUATION.md, rule 2."
 fi
 
 parsed=$(printf '%s' "$input" | python3 -c '
