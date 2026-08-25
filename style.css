@@ -55,3 +55,13 @@ td, th {
 th { font-weight: normal; font-style: italic; color: var(--faint); }
 .entry { margin: 0 0 1rem; }
 .num { color: var(--faint); font-variant-numeric: tabular-nums; }
+code {
+  font: 0.9em/1.4 ui-monospace, Menlo, Consolas, monospace;
+  overflow-wrap: anywhere;
+}
+blockquote {
+  margin: 1rem 0 1rem 1rem;
+  padding-left: 1rem;
+  border-left: 1px solid var(--rule);
+  color: var(--faint);
+}

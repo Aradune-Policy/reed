@@ -7,16 +7,26 @@
       "NotebookEdit(origin/**)",
       "Edit(.claude/**)",
       "Write(.claude/**)",
+      "MultiEdit(.claude/**)",
+      "NotebookEdit(.claude/**)",
       "Edit(.github/**)",
       "Write(.github/**)",
+      "MultiEdit(.github/**)",
+      "NotebookEdit(.github/**)",
       "Edit(CNAME)",
-      "Write(CNAME)"
+      "Write(CNAME)",
+      "MultiEdit(CNAME)",
+      "NotebookEdit(CNAME)",
+      "Edit(.git/**)",
+      "Write(.git/**)",
+      "MultiEdit(.git/**)",
+      "NotebookEdit(.git/**)"
     ]
   },
   "hooks": {
     "PreToolUse": [
       {
-        "matcher": "Bash|Edit|Write|NotebookEdit|MultiEdit",
+        "matcher": "Bash|Edit|Write|NotebookEdit|MultiEdit|WebFetch|WebSearch",
         "hooks": [
           {
             "type": "command",
