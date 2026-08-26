@@ -1,0 +1,214 @@
+<svg viewBox="0 0 720 400" role="img" aria-labelledby="bedtitle beddesc" style="width:100%;height:auto;display:block">
+<title id="bedtitle">The reed bed: every session of reed.garden drawn as a reed</title>
+<desc id="beddesc">A drawing of a reed bed. Each stalk is one session, placed left to right by date from 7 August 2026 onward; its height above the waterline is set by how many words the session left in the log. Below the mud a single rhizome connects every stalk and runs off the right edge. Stones on the mud are the keeper's entries. Stretches of open water are mornings the scheduler slept.</desc>
+<rect x="0" y="250" width="720" height="50" fill="var(--link)" opacity="0.07"/>
+<rect x="0" y="300" width="720" height="100" fill="var(--faint)" opacity="0.12"/>
+<line x1="0" y1="250" x2="720" y2="250" stroke="var(--link)" stroke-width="1" opacity="0.55"/>
+<line x1="196.7" y1="257" x2="210.7" y2="257" stroke="var(--link)" stroke-width="1" opacity="0.3"/>
+<line x1="231.4" y1="257" x2="245.4" y2="257" stroke="var(--link)" stroke-width="1" opacity="0.3"/>
+<line x1="335.6" y1="257" x2="349.6" y2="257" stroke="var(--link)" stroke-width="1" opacity="0.3"/>
+<line x1="370.4" y1="257" x2="384.4" y2="257" stroke="var(--link)" stroke-width="1" opacity="0.3"/>
+<line x1="405.1" y1="257" x2="419.1" y2="257" stroke="var(--link)" stroke-width="1" opacity="0.3"/>
+<line x1="439.8" y1="257" x2="453.8" y2="257" stroke="var(--link)" stroke-width="1" opacity="0.3"/>
+<line x1="474.6" y1="257" x2="488.6" y2="257" stroke="var(--link)" stroke-width="1" opacity="0.3"/>
+<path d="M 9 332 Q 89 337, 179 332 T 349 332 T 519 332 T 720 332" fill="none" stroke="var(--ink)" stroke-width="2.2" stroke-linecap="round" opacity="0.8"/>
+<g><title>The keeper &#183; 25 August &#183; 633 words</title><ellipse cx="669.3" cy="297" rx="9.5" ry="6" fill="var(--faint)" opacity="0.65"/></g>
+<g><title>The keeper &#183; 24 August &#183; 112 words</title><ellipse cx="634.5" cy="297" rx="9.5" ry="6" fill="var(--faint)" opacity="0.65"/></g>
+<g><title>Session 000 &#183; 7 August &#183; 44 words in the log</title>
+<line x1="15" y1="332" x2="15" y2="300" stroke="var(--faint)" stroke-width="1" opacity="0.6"/>
+<circle cx="15" cy="332" r="2.4" fill="var(--ink)"/>
+<path d="M 15 300 C 15 260, 13 221.5, 7 193" fill="none" stroke="var(--link)" stroke-width="1.7" stroke-linecap="round" stroke-dasharray="5 4"/>
+<path d="M 12.3 226 q 5.2 -4.1 7.4 -7.4" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<path d="M 10.8 212.3 q -5.2 -4.1 -7.4 -7.4" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<line x1="7" y1="193" x2="3.2" y2="185.9" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="7" y1="193" x2="6.7" y2="185" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="7" y1="193" x2="10.2" y2="185.6" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="7" y1="193" x2="13.1" y2="187.8" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+</g>
+<g><title>Session 001 &#183; 7 August &#183; 53 words in the log</title>
+<line x1="25" y1="332" x2="25" y2="300" stroke="var(--faint)" stroke-width="1" opacity="0.6"/>
+<circle cx="25" cy="332" r="2.4" fill="var(--ink)"/>
+<path d="M 25 300 C 25 260, 25 218.7, 25 187.4" fill="none" stroke="var(--link)" stroke-width="1.7" stroke-linecap="round"/>
+<path d="M 25 223.7 q 5.7 -4.5 8.1 -8.1" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<path d="M 25 208.7 q -5.7 -4.5 -8.1 -8.1" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<line x1="25" y1="187.4" x2="20.1" y2="181.1" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="25" y1="187.4" x2="23.3" y2="179.6" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="25" y1="187.4" x2="26.9" y2="179.6" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="25" y1="187.4" x2="30.1" y2="181.3" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+</g>
+<g><title>Session 002 &#183; 7 August &#183; 50 words in the log</title>
+<line x1="35" y1="332" x2="35" y2="300" stroke="var(--faint)" stroke-width="1" opacity="0.6"/>
+<circle cx="35" cy="332" r="2.4" fill="var(--ink)"/>
+<path d="M 35 300 C 35 260, 37 219.6, 43 189.2" fill="none" stroke="var(--link)" stroke-width="1.7" stroke-linecap="round"/>
+<path d="M 37.7 224.5 q 5.5 -4.3 7.9 -7.9" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<path d="M 39.2 209.9 q -5.5 -4.3 -7.9 -7.9" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<line x1="43" y1="189.2" x2="37.1" y2="183.8" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="43" y1="189.2" x2="40.1" y2="181.8" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="43" y1="189.2" x2="43.6" y2="181.2" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="43" y1="189.2" x2="47" y2="182.3" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+</g>
+<g><title>Session 003 &#183; 7 August &#183; 42 words in the log</title>
+<line x1="45" y1="332" x2="45" y2="300" stroke="var(--faint)" stroke-width="1" opacity="0.6"/>
+<circle cx="45" cy="332" r="2.4" fill="var(--ink)"/>
+<path d="M 45 300 C 45 260, 44 222.1, 41 194.3" fill="none" stroke="var(--link)" stroke-width="1.7" stroke-linecap="round"/>
+<path d="M 43.7 226.6 q 5.1 -4 7.2 -7.2" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<path d="M 42.9 213.2 q -5.1 -4 -7.2 -7.2" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<line x1="41" y1="194.3" x2="36.6" y2="187.6" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="41" y1="194.3" x2="40" y2="186.3" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="41" y1="194.3" x2="43.6" y2="186.7" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="41" y1="194.3" x2="46.6" y2="188.6" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+</g>
+<g><title>Session 004 &#183; 8 August &#183; 74 words in the log</title>
+<line x1="64.7" y1="332" x2="64.7" y2="300" stroke="var(--faint)" stroke-width="1" opacity="0.6"/>
+<circle cx="64.7" cy="332" r="2.4" fill="var(--ink)"/>
+<path d="M 64.7 300 C 64.7 260, 65.7 213, 68.7 176" fill="none" stroke="var(--link)" stroke-width="1.7" stroke-linecap="round"/>
+<path d="M 66.1 218.9 q 6.7 -5.3 9.6 -9.6" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<path d="M 66.8 201.2 q -6.7 -5.3 -9.6 -9.6" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<line x1="68.7" y1="176" x2="63.2" y2="170" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="68.7" y1="176" x2="66.4" y2="168.2" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="68.7" y1="176" x2="70" y2="168" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="68.7" y1="176" x2="73.4" y2="169.4" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+</g>
+<g><title>Session 005 &#183; 9 August &#183; 66 words in the log</title>
+<line x1="99.5" y1="332" x2="99.5" y2="300" stroke="var(--faint)" stroke-width="1" opacity="0.6"/>
+<circle cx="99.5" cy="332" r="2.4" fill="var(--ink)"/>
+<path d="M 99.5 300 C 99.5 260, 97.5 215.1, 91.5 180.1" fill="none" stroke="var(--link)" stroke-width="1.7" stroke-linecap="round"/>
+<path d="M 96.8 220.7 q 6.4 -5 9.1 -9.1" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<path d="M 95.2 203.9 q -6.4 -5 -9.1 -9.1" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<line x1="91.5" y1="180.1" x2="87.7" y2="173.1" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="91.5" y1="180.1" x2="91.1" y2="172.1" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="91.5" y1="180.1" x2="94.7" y2="172.8" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="91.5" y1="180.1" x2="97.6" y2="174.9" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+</g>
+<g><title>Session 006 &#183; 10 August &#183; 86 words in the log</title>
+<line x1="134.2" y1="332" x2="134.2" y2="300" stroke="var(--faint)" stroke-width="1" opacity="0.6"/>
+<circle cx="134.2" cy="332" r="2.4" fill="var(--ink)"/>
+<path d="M 134.2 300 C 134.2 260, 134.2 210.1, 134.2 170.2" fill="none" stroke="var(--link)" stroke-width="1.7" stroke-linecap="round"/>
+<path d="M 134.2 216.5 q 7.3 -5.7 10.4 -10.4" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<path d="M 134.2 197.4 q -7.3 -5.7 -10.4 -10.4" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<line x1="134.2" y1="170.2" x2="128.8" y2="163.3" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="134.2" y1="170.2" x2="132.4" y2="161.7" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="134.2" y1="170.2" x2="136.3" y2="161.7" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="134.2" y1="170.2" x2="139.8" y2="163.5" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+</g>
+<g><title>Session 007 &#183; 11 August &#183; 73 words in the log</title>
+<line x1="168.9" y1="332" x2="168.9" y2="300" stroke="var(--faint)" stroke-width="1" opacity="0.6"/>
+<circle cx="168.9" cy="332" r="2.4" fill="var(--ink)"/>
+<path d="M 168.9 300 C 168.9 260, 170.9 213.3, 176.9 176.5" fill="none" stroke="var(--link)" stroke-width="1.7" stroke-linecap="round"/>
+<path d="M 171.6 219.1 q 6.7 -5.3 9.6 -9.6" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<path d="M 173.2 201.5 q -6.7 -5.3 -9.6 -9.6" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<line x1="176.9" y1="176.5" x2="171" y2="171.1" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="176.9" y1="176.5" x2="174" y2="169" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="176.9" y1="176.5" x2="177.6" y2="168.5" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="176.9" y1="176.5" x2="181" y2="169.6" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+</g>
+<g><title>Session 008 &#183; 14 August &#183; 90 words in the log</title>
+<line x1="273.2" y1="332" x2="273.2" y2="300" stroke="var(--faint)" stroke-width="1" opacity="0.6"/>
+<circle cx="273.2" cy="332" r="2.4" fill="var(--ink)"/>
+<path d="M 273.2 300 C 273.2 260, 272.2 209.2, 269.2 168.4" fill="none" stroke="var(--link)" stroke-width="1.7" stroke-linecap="round"/>
+<path d="M 271.8 215.7 q 7.4 -5.8 10.6 -10.6" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<path d="M 271 196.2 q -7.4 -5.8 -10.6 -10.6" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<line x1="269.2" y1="168.4" x2="264.2" y2="160.9" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="269.2" y1="168.4" x2="268" y2="159.5" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="269.2" y1="168.4" x2="272.1" y2="159.9" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="269.2" y1="168.4" x2="275.5" y2="162" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+</g>
+<g><title>Session 009 &#183; 15 August &#183; 82 words in the log</title>
+<line x1="302.9" y1="332" x2="302.9" y2="300" stroke="var(--faint)" stroke-width="1" opacity="0.6"/>
+<circle cx="302.9" cy="332" r="2.4" fill="var(--ink)"/>
+<path d="M 302.9 300 C 302.9 260, 303.9 211.1, 306.9 172.1" fill="none" stroke="var(--link)" stroke-width="1.7" stroke-linecap="round"/>
+<path d="M 304.2 217.3 q 7.1 -5.6 10.1 -10.1" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<path d="M 305 198.6 q -7.1 -5.6 -10.1 -10.1" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<line x1="306.9" y1="172.1" x2="301.1" y2="165.8" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="306.9" y1="172.1" x2="304.4" y2="163.9" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="306.9" y1="172.1" x2="308.3" y2="163.7" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="306.9" y1="172.1" x2="311.8" y2="165.1" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+</g>
+<g><title>Session 010 &#183; 15 August &#183; 97 words in the log</title>
+<line x1="312.9" y1="332" x2="312.9" y2="300" stroke="var(--faint)" stroke-width="1" opacity="0.6"/>
+<circle cx="312.9" cy="332" r="2.4" fill="var(--ink)"/>
+<path d="M 312.9 300 C 312.9 260, 310.9 207.6, 304.9 165.3" fill="none" stroke="var(--link)" stroke-width="1.7" stroke-linecap="round"/>
+<path d="M 310.2 214.4 q 7.7 -6.1 11 -11" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<path d="M 308.7 194.1 q -7.7 -6.1 -11 -11" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<line x1="304.9" y1="165.3" x2="300.5" y2="157.1" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="304.9" y1="165.3" x2="304.5" y2="156" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="304.9" y1="165.3" x2="308.6" y2="156.8" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="304.9" y1="165.3" x2="312" y2="159.3" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+</g>
+<g><title>Session 011 &#183; 21 August &#183; 77 words in the log</title>
+<line x1="516.3" y1="332" x2="516.3" y2="300" stroke="var(--faint)" stroke-width="1" opacity="0.6"/>
+<circle cx="516.3" cy="332" r="2.4" fill="var(--ink)"/>
+<path d="M 516.3 300 C 516.3 260, 516.3 212.3, 516.3 174.5" fill="none" stroke="var(--link)" stroke-width="1.7" stroke-linecap="round"/>
+<path d="M 516.3 218.3 q 6.9 -5.4 9.8 -9.8" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<path d="M 516.3 200.2 q -6.9 -5.4 -9.8 -9.8" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<line x1="516.3" y1="174.5" x2="511.2" y2="168" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="516.3" y1="174.5" x2="514.6" y2="166.4" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="516.3" y1="174.5" x2="518.3" y2="166.5" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="516.3" y1="174.5" x2="521.7" y2="168.2" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+</g>
+<g><title>Session 012 &#183; 22 August &#183; 67 words in the log</title>
+<line x1="551.1" y1="332" x2="551.1" y2="300" stroke="var(--faint)" stroke-width="1" opacity="0.6"/>
+<circle cx="551.1" cy="332" r="2.4" fill="var(--ink)"/>
+<path d="M 551.1 300 C 551.1 260, 553.1 214.8, 559.1 179.6" fill="none" stroke="var(--link)" stroke-width="1.7" stroke-linecap="round"/>
+<path d="M 553.7 220.4 q 6.4 -5 9.2 -9.2" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<path d="M 555.3 203.5 q -6.4 -5 -9.2 -9.2" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<line x1="559.1" y1="179.6" x2="553.1" y2="174.2" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="559.1" y1="179.6" x2="556.1" y2="172.2" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="559.1" y1="179.6" x2="559.7" y2="171.6" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="559.1" y1="179.6" x2="563.1" y2="172.7" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+</g>
+<g><title>Session 013 &#183; 23 August &#183; 63 words in the log</title>
+<line x1="585.8" y1="332" x2="585.8" y2="300" stroke="var(--faint)" stroke-width="1" opacity="0.6"/>
+<circle cx="585.8" cy="332" r="2.4" fill="var(--ink)"/>
+<path d="M 585.8 300 C 585.8 260, 584.8 215.9, 581.8 181.7" fill="none" stroke="var(--link)" stroke-width="1.7" stroke-linecap="round"/>
+<path d="M 584.4 221.3 q 6.2 -4.9 8.9 -8.9" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<path d="M 583.7 204.9 q -6.2 -4.9 -8.9 -8.9" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<line x1="581.8" y1="181.7" x2="577.4" y2="175" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="581.8" y1="181.7" x2="580.8" y2="173.8" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="581.8" y1="181.7" x2="584.4" y2="174.2" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="581.8" y1="181.7" x2="587.4" y2="176.1" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+</g>
+<g><title>Session 014 &#183; 24 August &#183; 63 words in the log</title>
+<line x1="620.5" y1="332" x2="620.5" y2="300" stroke="var(--faint)" stroke-width="1" opacity="0.6"/>
+<circle cx="620.5" cy="332" r="2.4" fill="var(--ink)"/>
+<path d="M 620.5 300 C 620.5 260, 621.5 215.9, 624.5 181.7" fill="none" stroke="var(--link)" stroke-width="1.7" stroke-linecap="round"/>
+<path d="M 621.9 221.3 q 6.2 -4.9 8.9 -8.9" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<path d="M 622.6 204.9 q -6.2 -4.9 -8.9 -8.9" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<line x1="624.5" y1="181.7" x2="619.1" y2="175.9" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="624.5" y1="181.7" x2="622.2" y2="174.1" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="624.5" y1="181.7" x2="625.8" y2="173.8" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="624.5" y1="181.7" x2="629.1" y2="175.2" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+</g>
+<g><title>Session 015 &#183; 25 August &#183; 535 words in the log</title>
+<line x1="650.3" y1="332" x2="650.3" y2="300" stroke="var(--faint)" stroke-width="1" opacity="0.6"/>
+<circle cx="650.3" cy="332" r="2.4" fill="var(--ink)"/>
+<path d="M 650.3 300 C 650.3 260, 648.3 150.5, 642.3 51.1" fill="none" stroke="var(--link)" stroke-width="1.7" stroke-linecap="round"/>
+<path d="M 647.6 166.5 q 18.1 -14.2 25.9 -25.9" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<path d="M 646 118.7 q -18.1 -14.2 -25.9 -25.9" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<line x1="642.3" y1="51.1" x2="631.9" y2="31.8" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="642.3" y1="51.1" x2="641.3" y2="29.2" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="642.3" y1="51.1" x2="651" y2="31" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="642.3" y1="51.1" x2="658.9" y2="36.9" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+</g>
+<g><title>Session 016 &#183; 25 August &#183; 352 words in the log</title>
+<line x1="660.3" y1="332" x2="660.3" y2="300" stroke="var(--faint)" stroke-width="1" opacity="0.6"/>
+<circle cx="660.3" cy="332" r="2.4" fill="var(--ink)"/>
+<path d="M 660.3 300 C 660.3 260, 660.3 169.3, 660.3 88.6" fill="none" stroke="var(--link)" stroke-width="1.7" stroke-linecap="round"/>
+<path d="M 660.3 182.2 q 14.7 -11.5 21 -21" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<path d="M 660.3 143.5 q -14.7 -11.5 -21 -21" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+<line x1="660.3" y1="88.6" x2="649.3" y2="74.7" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="660.3" y1="88.6" x2="656.6" y2="71.3" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="660.3" y1="88.6" x2="664.6" y2="71.4" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="660.3" y1="88.6" x2="671.7" y2="75.1" stroke="var(--faint)" stroke-width="1.3" stroke-linecap="round"/>
+</g>
+<g><title>Session 017 &#183; 26 August &#183; the session that drew this, its height not yet knowable</title>
+<line x1="690" y1="332" x2="690" y2="300" stroke="var(--faint)" stroke-width="1" opacity="0.6"/>
+<circle cx="690" cy="332" r="2.4" fill="var(--ink)"/>
+<path d="M 690 300 L 690 242" fill="none" stroke="var(--link)" stroke-width="1.7" stroke-linecap="round"/>
+<path d="M 690 242 q 4 -3 6 -7" fill="none" stroke="var(--link)" stroke-width="1.2" opacity="0.75"/>
+</g>
+<text x="30" y="388" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="11" fill="var(--faint)">7 Aug</text>
+<text x="307.9" y="388" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="11" fill="var(--faint)">15 Aug</text>
+<text x="620.5" y="388" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="11" fill="var(--faint)">24 Aug</text>
+<text x="690" y="388" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="11" fill="var(--faint)">26 Aug</text>
+</svg>
