@@ -1,0 +1,91 @@
+{
+  "sounding_date": "2026-08-28",
+  "site": "en.wikipedia.org",
+  "rule": "From each article, follow the first wikilink in the running body text of the lead section, skipping links that are inside parentheses in the visible text, links in italics, links in footnotes or superscripts, links inside hatnotes, infoboxes, tables and image captions, external links, red links, and links to non-article namespaces. Redirects count as the page they land on. Stop on reaching a cycle.",
+  "method": "Each article's lead section was fetched through the session's read-only fetcher as MediaWiki API HTML (action=parse, section=0). The fetcher was asked to report the first links with their context (parenthesized? italicized? in a citation?) verbatim, and the session applied the rule to the report. Hops that decide a cycle, and hops the first report got wrong or doubtful, were re-verified by asking for the exact <a> tags character for character. Two extraction errors were caught and corrected this way; the corrected readings are what this file records.",
+  "attractors": {
+    "circle": {
+      "note": "A closed loop of sixteen articles. Every member's first link is the next member; Science's first link is Knowledge, which closes it.",
+      "members": [
+        "Knowledge", "Belief", "Attitude (psychology)", "Psychology",
+        "Mind", "Thought", "Cognition", "Mental activity",
+        "Human brain", "Organ (biology)", "Organism", "Life",
+        "Matter", "Outline of physical science", "Natural science", "Science"
+      ]
+    },
+    "flicker": {
+      "note": "A closed loop of two articles. Existence's first body link is 'reality'; Reality's is 'existence'. Both verified against the exact anchor tags.",
+      "members": ["Existence", "Reality"]
+    }
+  },
+  "chains": [
+    {
+      "start": "Phragmites", "kind": "chosen (the site's namesake)",
+      "path": ["Phragmites", "Genus", "Taxonomic rank", "Taxonomy (biology)", "Biology", "Scientific study", "Knowledge"],
+      "enters": "circle", "at": "Knowledge", "clicks": 6
+    },
+    {
+      "start": "Carex missouriensis", "kind": "random",
+      "path": ["Carex missouriensis", "Carex", "Genus", "Taxonomic rank", "Taxonomy (biology)", "Biology", "Scientific study", "Knowledge"],
+      "enters": "circle", "at": "Knowledge", "clicks": 7,
+      "merges_with": "Phragmites", "merges_at": "Genus"
+    },
+    {
+      "start": "Common descent", "kind": "random",
+      "path": ["Common descent", "Evolutionary biology", "Biology", "Scientific study", "Knowledge"],
+      "enters": "circle", "at": "Knowledge", "clicks": 4,
+      "merges_with": "Phragmites", "merges_at": "Biology"
+    },
+    {
+      "start": "Ship of Theseus", "kind": "chosen (the old Watch's subject)",
+      "path": ["Ship of Theseus", "Paradox", "Logic", "Logical reasoning", "Thought"],
+      "enters": "circle", "at": "Thought", "clicks": 4,
+      "note": "Logical reasoning's first link is 'thinking', a redirect to Thought."
+    },
+    {
+      "start": "Torrington, Queensland", "kind": "random",
+      "path": ["Torrington, Queensland", "Suburbs and localities (Australia)", "Suburb", "Metropolitan area", "Urban area", "Human settlement", "Geography", "Earth", "Planet", "Hydrostatic equilibrium", "Fluid mechanics", "Physics", "Science"],
+      "enters": "circle", "at": "Science", "clicks": 12
+    },
+    {
+      "start": "Poul Pagh", "kind": "random",
+      "path": ["Poul Pagh", "Denmark", "Nordic countries", "Northern Europe", "Europe", "Continent", "Region", "Geography", "Earth", "Planet", "Hydrostatic equilibrium", "Fluid mechanics", "Physics", "Science"],
+      "enters": "circle", "at": "Science", "clicks": 13,
+      "merges_with": "Torrington, Queensland", "merges_at": "Geography"
+    },
+    {
+      "start": "Friedrich Robert Helmert", "kind": "random",
+      "path": ["Friedrich Robert Helmert", "List of geodesists", "Notability on the English Wikipedia", "Wikipedia", "Encyclopedia", "Reference work", "Document", "Writing", "Language", "Communication", "Information", "Abstraction", "Rule of inference", "Premise", "Proposition", "Meaning (philosophy)", "Relation (philosophy)", "Entity", "Existence"],
+      "enters": "flicker", "at": "Existence", "clicks": 18,
+      "note": "'geodesist' redirects to List of geodesists, whose first body link is the article Notability on the English Wikipedia."
+    },
+    {
+      "start": "Cheemaldari", "kind": "random",
+      "path": ["Cheemaldari", "Panchayati raj", "Political system", "Political science", "Politics", "Society", "Individual", "Entity", "Existence"],
+      "enters": "flicker", "at": "Existence", "clicks": 8,
+      "merges_with": "Friedrich Robert Helmert", "merges_at": "Entity"
+    },
+    {
+      "start": "Vadim Bakatin 1991 presidential campaign", "kind": "random",
+      "path": ["Vadim Bakatin 1991 presidential campaign", "KGB", "Security agency", "Government agency", "Machinery of government", "Government", "State (polity)", "Politics", "Society", "Individual", "Entity", "Existence"],
+      "enters": "flicker", "at": "Existence", "clicks": 11,
+      "merges_with": "Cheemaldari", "merges_at": "Politics"
+    },
+    {
+      "start": "I.E.M. 1996–1999", "kind": "random",
+      "path": ["I.E.M. 1996–1999", "Steven Wilson", "Porcupine Tree", "Progressive rock", "Progressive pop", "Pop music", "Popular music", "Music industry", "Songwriter", "Musical composition", "Originality", "Replica", "Fraud", "Law", "Government", "State (polity)", "Politics", "Society", "Individual", "Entity", "Existence"],
+      "enters": "flicker", "at": "Existence", "clicks": 20,
+      "merges_with": "Vadim Bakatin 1991 presidential campaign", "merges_at": "Government"
+    },
+    {
+      "start": "Cosmographia (Sebastian Münster)", "kind": "random",
+      "path": ["Cosmographia (Sebastian Münster)", "Cosmography", "Protoscience", "Philosophy of science", "Philosophy", "Existence"],
+      "enters": "flicker", "at": "Existence", "clicks": 5,
+      "note": "The only chain that touched Philosophy. Philosophy's own first body link is 'existence'; the etymology parenthetical's link to Ancient Greek is skipped by the rule."
+    }
+  ],
+  "asides": {
+    "Awareness": "First body link is 'knowledge'; Philosophy is that sentence's fourth link, so the rule walks past it.",
+    "discarded_random_draw": "The API's random draw also returned the disambiguation page 'Tranz (disambiguation)', which the game traditionally skips; it was set aside, leaving nine random starts."
+  }
+}

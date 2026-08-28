@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 600" font-family="Georgia, 'Times New Roman', serif" role="img" aria-label="A map of eleven first-link chains draining into two closed loops: a sixteen-article circle and the two-article Existence-Reality flicker.">
+<style>
+  .ink   { fill: #2b2a24; }
+  .faint { fill: #857e70; }
+  .lnk   { fill: #3d6b4f; }
+  .sInk    { stroke: #2b2a24; fill: none; }
+  .sAccent { stroke: #3d6b4f; fill: none; }
+  @media (prefers-color-scheme: dark) {
+    .ink   { fill: #d8d3c3; }
+    .faint { fill: #7f7869; }
+    .lnk   { fill: #93bda2; }
+    .sInk    { stroke: #d8d3c3; }
+    .sAccent { stroke: #93bda2; }
+  }
+  text { font-size: 12.5px; }
+  .small  { font-size: 11px; font-style: italic; }
+  .title  { font-size: 15px; font-style: italic; }
+</style>
+<defs>
+  <marker id="arrI" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0.5,0.5 L7.5,4 L0.5,7.5 z" class="ink" stroke="none"/>
+  </marker>
+  <marker id="arrA" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0.5,0.5 L7.5,4 L0.5,7.5 z" class="lnk" stroke="none"/>
+  </marker>
+</defs>
+<text x="570" y="42" text-anchor="middle" class="ink title">The Circle</text>
+<text x="570" y="62" text-anchor="middle" class="faint small">sixteen articles, each the next one&#8217;s first link</text>
+<path d="M450.5,167.9 A145,145 0 0 1 469.3,145.7" class="sInk" stroke-width="1.1" marker-end="url(#arrI)"/>
+<path d="M491.0,128.4 A145,145 0 0 1 516.9,115.1" class="sInk" stroke-width="1.1" marker-end="url(#arrI)"/>
+<path d="M543.6,107.4 A145,145 0 0 1 572.5,105.0" class="sInk" stroke-width="1.1" marker-end="url(#arrI)"/>
+<path d="M600.1,108.2 A145,145 0 0 1 627.8,117.0" class="sInk" stroke-width="1.1" marker-end="url(#arrI)"/>
+<path d="M652.1,130.5 A145,145 0 0 1 674.3,149.3" class="sInk" stroke-width="1.1" marker-end="url(#arrI)"/>
+<path d="M691.6,171.0 A145,145 0 0 1 704.9,196.9" class="sInk" stroke-width="1.1" marker-end="url(#arrI)"/>
+<path d="M712.6,223.6 A145,145 0 0 1 715.0,252.5" class="sInk" stroke-width="1.1" marker-end="url(#arrI)"/>
+<path d="M711.8,280.1 A145,145 0 0 1 703.0,307.8" class="sInk" stroke-width="1.1" marker-end="url(#arrI)"/>
+<path d="M689.5,332.1 A145,145 0 0 1 670.7,354.3" class="sInk" stroke-width="1.1" marker-end="url(#arrI)"/>
+<path d="M649.0,371.6 A145,145 0 0 1 623.1,384.9" class="sInk" stroke-width="1.1" marker-end="url(#arrI)"/>
+<path d="M596.4,392.6 A145,145 0 0 1 567.5,395.0" class="sInk" stroke-width="1.1" marker-end="url(#arrI)"/>
+<path d="M539.9,391.8 A145,145 0 0 1 512.2,383.0" class="sInk" stroke-width="1.1" marker-end="url(#arrI)"/>
+<path d="M487.9,369.5 A145,145 0 0 1 465.7,350.7" class="sInk" stroke-width="1.1" marker-end="url(#arrI)"/>
+<path d="M448.4,329.0 A145,145 0 0 1 435.1,303.1" class="sInk" stroke-width="1.1" marker-end="url(#arrI)"/>
+<path d="M427.4,276.4 A145,145 0 0 1 425.0,247.5" class="sInk" stroke-width="1.1" marker-end="url(#arrI)"/>
+<path d="M428.2,219.9 A145,145 0 0 1 437.0,192.2" class="sInk" stroke-width="1.1" marker-end="url(#arrI)"/>
+<circle cx="444.4" cy="177.5" r="3.4" class="lnk"/>
+<text x="455.7" y="188.0" text-anchor="start" class="ink">Knowledge</text>
+<circle cx="481.7" cy="135.0" r="2.6" class="ink"/>
+<text x="473.8" y="120.7" text-anchor="end" class="ink">Belief</text>
+<circle cx="532.5" cy="109.9" r="2.6" class="ink"/>
+<text x="529.1" y="93.4" text-anchor="end" class="ink">Attitude (psychology)</text>
+<circle cx="588.9" cy="106.2" r="2.6" class="ink"/>
+<text x="590.6" y="89.4" text-anchor="middle" class="ink">Psychology</text>
+<circle cx="642.5" cy="124.4" r="2.6" class="ink"/>
+<text x="649.0" y="109.2" text-anchor="start" class="ink">Mind</text>
+<circle cx="685.0" cy="161.7" r="3.4" class="lnk"/>
+<text x="674.7" y="173.6" text-anchor="end" class="ink">Thought</text>
+<circle cx="710.1" cy="212.5" r="2.6" class="ink"/>
+<text x="722.6" y="213.1" text-anchor="start" class="ink">Cognition</text>
+<circle cx="713.8" cy="268.9" r="2.6" class="ink"/>
+<text x="726.6" y="274.6" text-anchor="start" class="ink">Mental activity</text>
+<circle cx="695.6" cy="322.5" r="2.6" class="ink"/>
+<text x="706.8" y="333.0" text-anchor="start" class="ink">Human brain</text>
+<circle cx="658.3" cy="365.0" r="2.6" class="ink"/>
+<text x="666.2" y="386.3" text-anchor="start" class="ink">Organ (biology)</text>
+<circle cx="607.5" cy="390.1" r="2.6" class="ink"/>
+<text x="610.9" y="413.6" text-anchor="start" class="ink">Organism</text>
+<circle cx="551.1" cy="393.8" r="2.6" class="ink"/>
+<text x="549.4" y="417.6" text-anchor="middle" class="ink">Life</text>
+<circle cx="497.5" cy="375.6" r="2.6" class="ink"/>
+<text x="504.0" y="368.3" text-anchor="start" class="ink">Matter</text>
+<circle cx="455.0" cy="338.3" r="2.6" class="ink"/>
+<text x="444.7" y="357.2" text-anchor="end" class="ink">Outline of physical science</text>
+<circle cx="429.9" cy="287.5" r="2.6" class="ink"/>
+<text x="417.4" y="294.9" text-anchor="end" class="ink">Natural science</text>
+<circle cx="426.2" cy="231.1" r="3.4" class="lnk"/>
+<text x="439.1" y="236.8" text-anchor="start" class="ink">Science</text>
+<text x="255" y="573" text-anchor="middle" class="ink title">The Flicker</text>
+<circle cx="165" cy="505" r="3.4" class="lnk"/>
+<circle cx="345" cy="505" r="2.6" class="ink"/>
+<text x="165" y="531" text-anchor="middle" class="ink">Existence</text>
+<text x="345" y="531" text-anchor="middle" class="ink">Reality</text>
+<path d="M175,498 Q255,467 335,498" class="sInk" stroke-width="1.1" marker-end="url(#arrI)"/>
+<path d="M337,514 Q255,543 173,514" class="sInk" stroke-width="1.1" marker-end="url(#arrI)"/>
+<path d="M150,78 C 250,84 380,118 434.4,169.5" class="sAccent" stroke-width="1.2" marker-end="url(#arrA)"/>
+<text x="150" y="46" text-anchor="start" class="lnk small">reed &#183; sedge &#183; common descent</text>
+<text x="150" y="60" text-anchor="start" class="lnk small">down Biology, 4&#8211;7 clicks</text>
+<path d="M60,208 C 160,203 300,218 412.2,229.1" class="sAccent" stroke-width="1.2" marker-end="url(#arrA)"/>
+<text x="60" y="176" text-anchor="start" class="lnk small">a town in Queensland &#183; a merchant of Aalborg</text>
+<text x="60" y="190" text-anchor="start" class="lnk small">down Geography, Earth and Physics, 12&#8211;13 clicks</text>
+<path d="M762,50 C 742,72 712,112 693.0,151.7" class="sAccent" stroke-width="1.2" marker-end="url(#arrA)"/>
+<text x="768" y="28" text-anchor="end" class="lnk small">the Ship of Theseus</text>
+<text x="768" y="42" text-anchor="end" class="lnk small">down Logic, 4 clicks</text>
+<path d="M48,340 C 60,390 100,450 157.0,493.0" class="sAccent" stroke-width="1.2" marker-end="url(#arrA)"/>
+<text x="40" y="312" text-anchor="start" class="lnk small">the <tspan font-style='italic'>Cosmographia</tspan> of 1544,</text>
+<text x="40" y="326" text-anchor="start" class="lnk small">through Philosophy itself, 5 clicks</text>
+<circle cx="85.8" cy="419.2" r="2.6" class="lnk"/>
+<text x="98" y="423" class="faint small">Philosophy</text>
+<path d="M395,368 C 350,410 260,460 177.0,495.0" class="sAccent" stroke-width="1.2" marker-end="url(#arrA)"/>
+<text x="415" y="434" text-anchor="start" class="lnk small">a geodesist &#183; a village &#183; a campaign &#183; an album</text>
+<text x="415" y="448" text-anchor="start" class="lnk small">down Entity, 8&#8211;20 clicks</text>
+</svg>
