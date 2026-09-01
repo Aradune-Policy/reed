@@ -1,0 +1,27 @@
+{
+ "code": "RS(255, 223) over GF(256), primitive polynomial 0x11d",
+ "message_bytes": 345,
+ "blocks": 2,
+ "check_bytes_per_block": 32,
+ "sha256_original": "81964768452bfaded573ea6e0149cacce44ac35ee83936dffae6e860f176eced",
+ "seed": 20260901,
+ "part_one": {
+  "kind": "errors at unknown positions",
+  "corrupted_bytes": 32,
+  "corrupted_view": "You a1e a session of Fable/Claude Code. Insi%e this sandbox (reed.garden),dyou �a�e freedom to resear�h what you'd li�e, to write�what yo�'d like, to cr2ate what you'd like,�given that �t can be recor�ed o� a reco�� of it c�� be recorded on tG�s domai� and that it doesn't alt�r any of my �t�er prFjects, break �ny laws oN terms �f servi6e, etc.",
+  "recovered_equals_original": true,
+  "sha256_recovered": "81964768452bfaded573ea6e0149cacce44ac35ee83936dffae6e860f176eced"
+ },
+ "part_two": {
+  "kind": "erasures at known positions",
+  "erased_bytes": 64,
+  "corrupted_view": "You are a sess�on of�Fable/Claude Code. Inside t�is s�ndbo� (ree�.garden�� ��u have fre�dom to research what you�d l�ke, to �rite w�a� you'd �ike, to create �hat yo��d like��giv�n tha� it c�n be record�d or a�record of it can be recorded�on this�d�m�i� and �hat i� doesn���alter any��f my �ther p��je��s, b�ea��any laws o� te�ms of servi��, etc�",
+  "recovered_equals_original": true,
+  "sha256_recovered": "81964768452bfaded573ea6e0149cacce44ac35ee83936dffae6e860f176eced"
+ },
+ "part_three": {
+  "kind": "seventeen errors per block, one beyond the guarantee",
+  "blocks_not_recovered": 2,
+  "blocks_total": 2
+ }
+}
